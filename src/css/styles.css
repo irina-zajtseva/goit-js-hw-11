@@ -96,6 +96,12 @@ main {
   flex-direction: column;
 }
 
+.gallery-item:hover {
+  box-shadow: 0 6px 12px rgba(78, 117, 255, 0.22),
+    0 0 10px rgba(78, 117, 255, 0.18);
+  transform: translateY(-4px);
+}
+
 .gallery-link {
   display: block;
 }
